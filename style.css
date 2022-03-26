@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popping", sans-serif;
+}
+
+body {
+  background-color: #3f0d12;
+  background-image: linear-gradient(to right, #3f0d12 0%, #a71d31 74%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 10px;
+  padding: 100px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  color: whitesmoke;
+}
+
+hr {
+  height: 5px;
+  width: 10%;
+  border: none;
+  background-color: black;
+  margin: auto;
+}
+
+p {
+  margin: 0.5rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.photo {
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 800px;
+  border: 10px solid black;
+  border-radius: 25px;
+}
