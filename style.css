@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Popping", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +26,8 @@ h1 {
   align-items: center;
   margin: 0.5rem;
   color: whitesmoke;
+  letter-spacing: 2px;
+  line-height: 1.6;
 }
 
 hr {
@@ -39,6 +42,8 @@ p {
   margin: 0.5rem;
   text-align: center;
   color: whitesmoke;
+  letter-spacing: 2px;
+  line-height: 1.6;
 }
 
 .photo {
@@ -53,4 +58,36 @@ img {
   max-width: 800px;
   border: 10px solid black;
   border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    /* border: 5px solid pink; */
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  hr {
+    height: 5px;
+    width: auto;
+    border: none;
+    background-color: black;
+    margin: auto;
+  }
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+
+  img {
+    max-width: 320px;
+    max-height: 640px;
+    margin: 20px;
+  }
 }
