@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Malik's Portfolio</title>
-  </head>
-  <body>
-      <div class="container">
-            <hr>   
-              <h1> Coming Soon </h1>               
-            <hr>
-            <p> Website is under construction. <br> Please view my resume in the meantime.  </p>   
-        <div class="photo">
-            <img src="assets/MJ_Resume_UX.png" alt="Malik's Resume">
-        </div>  
-      </div>   
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Malik Jones Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <a class="brand" href="index.html"><img src="assets/MJ_Logo_White.png" alt="MJ_logo"></a>
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul class="navbar-menu">
+                        <li><a class="nav-link" href="index.html" data-after="Home">Home</a></li>
+                        <li><a class="nav-link" href="pages/about.html" data-after="About">About</a></li>
+                        <li><a class="nav-link" href="pages/projects.html" data-after="Properties">Projects</a></li>
+                        <li><a class="nav-link" href="pages/contact.html" data-after="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content">
+            <img src="assets/notebook.jpg" alt="notebook">
+            <button type="button" onclick="window.location.href='/pages/projects.html'">View Portfolio</button>
+        </div>
+        <script src="script.js"> </script>
+    </body>
+    <footer>
+        <div>
+            <a href="https://github.com/Silent-Hero"><img src="https://img.icons8.com/3d-fluency/100/000000/3d-fluency-github-logo.png"/></a>
+            <a href="https://www.linkedin.com/in/malik-jones-174a9a219/"> <img src="https://img.icons8.com/color/100/000000/linkedin.png"/></a>            
+        </div>
+    </footer>
 </html>
