@@ -567,6 +567,16 @@ footer img {
   margin: 15px;
 }
 
+.copyright {
+  /* border: 10px solid green; */
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  color: whitesmoke;
+  background: black;
+}
+
 /* Key Frames */
 @keyframes hamburger_pulse {
   0% {
